@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Michroma&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Michroma", sans-serif;
+  --font-accent: "Space Grotesk", sans-serif;
+  
+  --color-brand-red: #FF1F40;
+  --color-brand-orange: #FF4D00;
+  --color-brand-dark: #050505;
+  --color-brand-gray: #0F0F0F;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-white font-sans antialiased selection:bg-brand-red selection:text-white;
+    background-image: 
+      radial-gradient(circle at 2px 2px, rgba(255, 31, 64, 0.05) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display tracking-wider uppercase;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.tech-grid {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100px 100px;
+}
+
+.glow-point {
+  @apply absolute w-1 h-1 rounded-full;
+  box-shadow: 0 0 10px 2px currentColor;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/30;
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(255, 31, 64, 0.1) 0%, transparent 70%);
+}
+
+@keyframes pulse-thin {
+  0%, 100% { opacity: 0.3; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(10px); }
+}
+
+.pulse-arrow {
+  animation: pulse-thin 2s infinite ease-in-out;
+}
+
+.glow-frame {
+  @apply relative p-[2px] overflow-hidden rounded-3xl bg-white/5;
+}
+
+.glow-frame::before {
+  content: '';
+  @apply absolute top-[-50%] left-[-50%] w-[200%] h-[200%] opacity-0 transition-opacity duration-500;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0%,
+    transparent 80%,
+    #FF1F40 100%
+  );
+}
+
+.glow-frame:hover::before {
+  @apply opacity-100;
+  animation: rotate-glow 2s linear infinite;
+}
+
+@keyframes rotate-glow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.glow-content {
+  @apply relative z-10 bg-brand-dark rounded-[22px] overflow-hidden;
+}

@@ -1,11 +1,37 @@
-<div align="center">
+# Davey Keuvelaar Portfolio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project is a high-performance Web3 marketing portfolio built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Vercel Deployment
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is configured for easy deployment on Vercel.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Steps to Deploy:
 
-</div>
+1. **Push to GitHub**: Push this code to a GitHub repository.
+2. **Import to Vercel**: Go to [vercel.com](https://vercel.com) and import your repository.
+3. **Configure Environment Variables**:
+   - Add `GEMINI_API_KEY`: Your Google Gemini API key.
+   - Add `VITE_APP_URL`: The URL where your app will be hosted (optional, for self-referencing).
+4. **Deploy**: Vercel will automatically detect the Vite configuration and deploy your app.
+
+### Configuration:
+
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Routing**: `vercel.json` is included to handle Single Page Application (SPA) routing.
+
+## Local Development
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
