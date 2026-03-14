@@ -64,6 +64,44 @@ const CASE_STUDIES = [
     quote: "Hypersurface scaled from an unknown early-stage protocol to over $20M in trading volume through a combination of structured KOL distribution and community activation."
   },
   {
+    id: 'polygon',
+    title: 'Polygon',
+    subtitle: 'Ecosystem Case Study',
+    category: 'Layer 2 / Ethereum Scaling',
+    description: 'Incubated Polygon at Lunar Digital Assets, scaling one of the fastest growing ecosystems in Web3 from under 10k to nearly 1M followers.',
+    stats: [
+      { label: 'X Followers', value: '1M' },
+      { label: 'Token Growth', value: '330x' }
+    ],
+    points: [
+      { title: "Social Scaling", description: "Led ecosystem visibility initiatives that scaled social presence from under 10,000 to nearly 1 million followers." },
+      { title: "Milestone Campaigns", description: "Designed and executed campaign marketing around key ecosystem milestones to drive rapid adoption." },
+      { title: "Retention Systems", description: "Built core community growth and retention systems to support a rapidly expanding user base." },
+      { title: "Whale Engagement", description: "Developed specific engagement strategies for power-users and whales to solidify ecosystem loyalty." }
+    ],
+    tags: ['L2 Scaling', 'Ecosystem Growth', 'Social Scaling', 'Community Systems'],
+    quote: "Polygon experienced rapid ecosystem growth, scaling from under 10,000 followers to nearly 1 million on X while the MATIC token grew from under $0.01 to $3.30."
+  },
+  {
+    id: 'quickswap',
+    title: 'QuickSwap',
+    subtitle: 'DeFi Case Study',
+    category: 'DeFi / Decentralized Exchange',
+    description: 'Incubated the largest DEX on Polygon, scaling Total Value Locked from zero to over $1B through aggressive liquidity and yield campaigns.',
+    stats: [
+      { label: 'TVL Growth', value: '$1B+' },
+      { label: 'Market Cap', value: '$500M+' }
+    ],
+    points: [
+      { title: "Liquidity Campaigns", description: "Designed and executed liquidity and yield marketing campaigns that drove TVL from $0 to over $1B." },
+      { title: "Brand Positioning", description: "Established QuickSwap as the core DeFi primitive within the Polygon ecosystem through strategic social growth." },
+      { title: "Ecosystem Integration", description: "Secured key DeFi ecosystem partnerships and integrations required to support rapid adoption of the exchange." },
+      { title: "LP Community", description: "Built a robust community of traders and liquidity providers through targeted engagement and content systems." }
+    ],
+    tags: ['DEX Marketing', 'Liquidity Mining', 'Yield Campaigns', 'DeFi Primitives'],
+    quote: "QuickSwap became the largest dApp on Polygon, scaling its TVL to over $1B and reaching a fully diluted market cap of $500M+."
+  },
+  {
     id: 'thriv3',
     title: 'Thriv3 Agency',
     subtitle: 'Agency Case Study',
@@ -135,6 +173,44 @@ const CASE_STUDIES = [
     ],
     tags: ['Web3 Gaming', 'Metaverse', 'Capital Raising', 'Community Growth'],
     quote: "Affyn sold out both private and pre-sale rounds, raising more than $10M while growing to 50,000+ followers and 15,000+ Telegram members."
+  },
+  {
+    id: 'comdex',
+    title: 'Comdex',
+    subtitle: 'Infrastructure Case Study',
+    category: 'DeFi Infrastructure / Cosmos',
+    description: 'Scaled a Cosmos DeFi infrastructure project in 3 months, achieving major audience growth and strong token momentum through aggressive community scaling.',
+    stats: [
+      { label: 'X Growth', value: '24K' },
+      { label: 'Token Growth', value: '12x' }
+    ],
+    points: [
+      { title: "Social Scaling", description: "Grew the X audience from 1,000 to 24,000 followers within a 3-month engagement period." },
+      { title: "Launch Momentum", description: "Built aggressive launch momentum through coordinated KOL campaigns and fair launch support on Osmosis." },
+      { title: "Multi-Channel Growth", description: "Managed community engagement across Telegram, Reddit, and other channels to build a cohesive ecosystem." },
+      { title: "Narrative Positioning", description: "Positioned Comdex as a critical DeFi infrastructure layer within the Cosmos ecosystem." }
+    ],
+    tags: ['Cosmos Ecosystem', 'Fair Launch', 'Community Scaling', 'KOL Campaigns'],
+    quote: "Within 3 months Comdex achieved major audience growth, growing X from 1,000 to 24,000 followers while the token moved from $0.50 to $6 in one week."
+  },
+  {
+    id: 'sentinel',
+    title: 'Sentinel',
+    subtitle: 'Marketing Case Study',
+    category: 'Ambassador Programs / Growth',
+    description: 'Built and managed a large-scale ambassador system of 200+ members, driving significant price momentum and coordinated ecosystem growth.',
+    stats: [
+      { label: 'Ambassadors', value: '200' },
+      { label: 'Price Increase', value: '27x' }
+    ],
+    points: [
+      { title: "Ambassador OS", description: "Designed a structured operating system capable of handling up to 200 ambassadors for coordinated growth." },
+      { title: "Price Momentum", description: "Focused on driving price momentum through coordinated community actions and targeted KOL support." },
+      { title: "Content Strategy", description: "Developed a comprehensive content strategy that ambassadors used to amplify the project's reach." },
+      { title: "KOL Coordination", description: "Combined the ambassador system with targeted KOL campaigns to maximize distribution density." }
+    ],
+    tags: ['Ambassador Programs', 'Growth Marketing', 'Price Momentum', 'Content Strategy'],
+    quote: "The ambassador program, content strategy, and KOL support helped drive the token from $0.0018 to $0.05 within the operating window."
   }
 ];
 
