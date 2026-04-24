@@ -50,7 +50,7 @@ const CASE_STUDIES = [
     category: 'DeFi / Onchain Options',
     description: 'Repositioned an abstract "on-chain options" protocol into a clear "Volatility Yield" narrative, building a full growth system from launch to market traction.',
     stats: [
-      { label: 'Trading Volume', value: '$20M+' },
+      { label: 'Trading Volume', value: '$50M+' },
       { label: 'Followers', value: '12K+' }
     ],
     points: [
@@ -61,7 +61,7 @@ const CASE_STUDIES = [
       { title: "NFT Pass campaign", description: "Viral campaign with ecosystem NFT partners that grew volume from $500K to $2M with zero additional ad spend." }
     ],
     tags: ['Points Systems', 'Referral Incentives', 'Whale Leaderboards', 'Social PnL Cards', 'NFT Pass Viral Campaign'],
-    quote: "Hypersurface scaled from an unknown early-stage protocol to over $20M in trading volume through a combination of structured KOL distribution and community activation."
+    quote: "Hypersurface scaled from an unknown early-stage protocol to over $50M in trading volume through a combination of structured KOL distribution and community activation."
   },
   {
     id: 'polygon',
@@ -492,8 +492,8 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <StatCard 
               label="Trading Volume" 
-              value="$20M+" 
-              description="Scaled Hypersurface from 0 to $20M+ volume in just 4 months."
+              value="$50M+" 
+              description="Scaled Hypersurface from 0 to $50M+ volume in just 4 months."
             />
             <StatCard 
               label="Market Cap" 
@@ -624,7 +624,7 @@ export default function App() {
               company="Hypersurface"
               period="2025 – Present"
               impact={[
-                "Scaled protocol from 0 to $20M+ trading volume within 4 months.",
+                "Scaled protocol from 0 to $50M+ trading volume within 4 months.",
                 "Acquired 500+ daily traders during launch phase.",
                 "Grew X account from 50 to 12,000+ followers organically.",
                 "Executed 2 large-scale KOL campaigns generating 150+ coordinated posts."
